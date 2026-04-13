@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>UEAS</h2>
+        <ul>
+          <li class="active"><i class="fa fa-home"></i> Dashboard</li>
+          <li><i class="fa fa-calendar"></i> <a href="events.html">Events</a></li>
+          <li><i class="fa fa-bell"></i> <a href="notifications.html">Notifications</a></li>
+          <li><i class="fa fa-star"></i> <a href="subscriptions.html">Subscriptions</a></li>
+          <li><i class="fa fa-user"></i> Profile</li>
+          <li><i class="fa fa-star"></i> <a href="../auth/login.html">Log <Output></Output></a></li>
+
+        </ul>
+      </aside>
+      <!-- Main -->
+      <main class="main">
+        <!-- Header -->
+        <header class="header">
+          <h1>Welcome Back, Amir 👋</h1>
+          <div class="search-box">
+            <input type="text" placeholder="Search events..." />
+          </div>
+        </header>
+        <!-- Cards -->
+        <section class="cards">
+          <div class="card">
+            <h3>12</h3>
+            <p>Upcoming Events</p>
+          </div>
+          <div class="card">
+            <h3>5</h3>
+            <p>Registered</p>
+          </div>
+          <div class="card">
+            <h3>3</h3>
+            <p>Notifications</p>
+          </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="events">
+          <h2>Upcoming Events</h2>
+          <div class="event-grid">
+            <div class="event-card">
+              <h3>AI Workshop</h3>
+              <p>CSE Dept • April 20</p>
+              <button>View</button>
+            </div>
+            <div class="event-card">
+              <h3>Hackathon</h3>
+              <p>ICT Club • April 25</p>
+              <button>View</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Notifications -->
+        <section class="notifications">
+          <h2>Recent Notifications</h2>
+          <ul>
+            <li>New event added: Robotics Seminar</li>
+            <li>Your registration approved</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

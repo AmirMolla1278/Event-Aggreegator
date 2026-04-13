@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Subscriptions</title>
+<link rel="stylesheet" href="../css/subscriptions.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>UEAS</h2>
+    <ul>
+      <li><i class="fa fa-home"></i> <a href="dashboard.html">Dashboard</a></li>
+      <li><i class="fa fa-calendar"></i> <a href="events.html">Events</a></li>
+      <li class="active"><i class="fa fa-bell"></i> <a href="notifications.html">Notifications</a></li>
+      <li><i class="fa fa-star"></i> Subscriptions</li>
+      <li><i class="fa fa-user"></i> Profile</li>
+      <li><i class="fa fa-star"></i> <a href="../auth/login.html">Log <Output></Output></a></li>
+
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <header class="header">
+      <h1>Event Subscriptions</h1>
+      <p>Choose categories you want to receive notifications from</p>
+    </header>
+
+    <section class="subscription-grid">
+
+      <div class="sub-card">
+        <div class="icon"><i class="fa fa-robot"></i></div>
+        <div class="info">
+          <h3>AI & ML</h3>
+          <p>Workshops, seminars, hackathons</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="sub-card">
+        <div class="icon"><i class="fa fa-code"></i></div>
+        <div class="info">
+          <h3>Programming</h3>
+          <p>Contests, coding events</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="sub-card">
+        <div class="icon"><i class="fa fa-microchip"></i></div>
+        <div class="info">
+          <h3>Electronics</h3>
+          <p>EEE workshops, IoT events</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>

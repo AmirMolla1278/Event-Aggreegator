@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Notifications</title>
+<link rel="stylesheet" href="../css/notifications.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="layout">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>UEAS</h2>
+    <ul>
+      <li><i class="fa fa-home"></i> <a href="dashboard.html">Dashboard</a></li>
+      <li><i class="fa fa-calendar"></i> <a href="events.html">Events</a></li>
+      <li class="active"><i class="fa fa-bell"></i> <a href="notifications.html">Notifications</a></li>
+      <li><i class="fa fa-star"></i> <a href="subscriptions.html">Subscriptions</a></li>
+      <li><i class="fa fa-user"></i> Profile</li>
+      <li><i class="fa fa-star"></i> <a href="../auth/login.html">Log <Output></Output></a></li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <header class="header">
+      <h1>Notifications</h1>
+    </header>
+
+    <section class="notification-list">
+
+      <div class="notification unread">
+        <i class="fa fa-circle info"></i>
+        <div class="text">
+          <p><strong>New Event:</strong> Robotics Workshop added</p>
+          <span>2 mins ago</span>
+        </div>
+      </div>
+
+      <div class="notification">
+        <i class="fa fa-check success"></i>
+        <div class="text">
+          <p>Your registration has been approved</p>
+          <span>1 hour ago</span>
+        </div>
+      </div>
+
+      <div class="notification unread">
+        <i class="fa fa-exclamation warning"></i>
+        <div class="text">
+          <p>Event deadline approaching: Hackathon</p>
+          <span>Yesterday</span>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</div>
+
+</body>
+</html>
